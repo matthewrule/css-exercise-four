@@ -1,4 +1,41 @@
+@media media-type and (media-feature) {
+  selector { property: value; }
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
-  font-size: 10px;
+  text-align: center;
+  font-size: 20px auto;
+  width: 90%;
+  float: left;
 }
+
+h1{
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.container{
+  margin: 10px;
+  width: 90%;
+}
+
+.photo{
+  float: left;
+  margin: 1%;
+  width: 100%;
+  padding: 20px;
+}
+
+/* tablet */
+@media only screen and (min-width: 768px) {
+  .photo{
+    float: left;
+    margin: 1%;
+    width: 25%;
+    padding: 10%;
+  }
