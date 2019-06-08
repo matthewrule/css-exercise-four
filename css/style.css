@@ -22,6 +22,7 @@ h2{
   text-align: center;
   font-size: 1.2em;
   font-weight: bold;
+  width: 100%;
 }
 
 .container{
@@ -64,6 +65,7 @@ h2{
     line-height: normal;
     font-size: 1.2em;
     font-weight: bold;
+    width: 75%;
   }
 }
 
@@ -87,5 +89,6 @@ h2{
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
+    width: 75%;
   }
 }
