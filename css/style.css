@@ -25,57 +25,61 @@ h2{
   width: 100%;
   position: absolute;
   float: left;
-  padding-top: 5%;
 }
 
 .container{
   position: center;
   margin: auto;
-  padding-right: 1%;
-  padding-left: 1%;
-  width: 90%;
+  padding: 0;
+  width: 85%;
 }
 
 .preview{
   float: left;
-  width: 100%;
-  padding-left: 1%;
-  padding-right: 1%;
-}
-
-.photo{
-  float: left;
-  min-width: 100%;
-  min-height: 100%;
-  margin: 0px;
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-top: 0px;
+  background-size: contain;
+  padding: inherit;
+  margin: auto;
 }
 
 .baku{
-
+  background-image: image(../"images/baku.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 175px;
+  background-color: grey;
 }
 .london{
-
+  background-image: image(../"images/london.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 175px;
+  background-color: grey;
 }
 .madrid{
-
+  background-image: image(../"images/madrid.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 175px;
+  background-color: grey;
 }
 .rome{
-
+  background-image: image(../"images/rome.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 175px;
+  background-color: grey;
 }
 
 /* Desktop */
 @media only screen and (min-width: 768px) {
-  .photo{
-    float: center;
-    margin: 1%;
-    width: 90%;
-  }
 
   .preview{
     float: left;
+    background-size: contain;
     margin: 0%;
     width: 22%;
     padding-left: 1%;
@@ -88,21 +92,18 @@ h2{
     font-size: 1.2em;
     font-weight: bold;
     width: 15%;
-    padding-top: 1%;
+    padding-top: 0px;
     padding-left: 5%;
+    padding-bottom: 95%;
   }
 }
 
 /* laptop */
 @media only screen and (max-width: 991px) and (min-width: 768px) {
-  .photo{
-    float: left;
-    margin: 1%;
-    padding: inherit;
-  }
 
   .preview{
     float: left;
+    background-size: contain;
     margin: 0%;
     width: 44%;
     padding-left: 0px;
