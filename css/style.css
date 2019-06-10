@@ -10,7 +10,8 @@ body {
   background-color: #dadada;
   text-align: center;
   font-size: 16px auto;
-  width: 100%;
+  width: 90%;
+  padding:inherit;
 }
 
 h1{
@@ -19,16 +20,20 @@ h1{
 }
 
 h2{
-  text-align: center;
   font-size: 1.2em;
   font-weight: bold;
   width: 100%;
+  position: absolute;
+  float: left;
+  padding-top: 5%;
 }
 
 .container{
-  margin: 1px;
-  width: 100%;
-  padding: 1%;
+  position: center;
+  margin: auto;
+  padding-right: 1%;
+  padding-left: 1%;
+  width: 90%;
 }
 
 .preview{
@@ -40,10 +45,25 @@ h2{
 
 .photo{
   float: left;
-  margin: 1%;
-  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0px;
   padding-left: 1%;
   padding-right: 1%;
+  padding-top: 0px;
+}
+
+.baku{
+
+}
+.london{
+
+}
+.madrid{
+
+}
+.rome{
+
 }
 
 /* Desktop */
@@ -53,19 +73,23 @@ h2{
     margin: 1%;
     width: 90%;
   }
+
   .preview{
     float: left;
-    margin: 1%;
+    margin: 0%;
     width: 22%;
     padding-left: 1%;
     padding-right: 1%;
   }
+
   h2{
-    text-align: center;
+    text-align: left;
     line-height: normal;
     font-size: 1.2em;
     font-weight: bold;
-    width: 75%;
+    width: 15%;
+    padding-top: 1%;
+    padding-left: 5%;
   }
 }
 
@@ -73,22 +97,23 @@ h2{
 @media only screen and (max-width: 991px) and (min-width: 768px) {
   .photo{
     float: left;
-    width: 75%;
     margin: 1%;
+    padding: inherit;
   }
+
   .preview{
     float: left;
-    margin: 1%;
-    width: 45%;
-    min-height: 340px;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 5%;
+    margin: 0%;
+    width: 44%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
   }
+
   h2{
-    text-align: center;
+    text-align: left;
     font-size: 1.2em;
     font-weight: bold;
-    width: 75%;
+    width: 15%;
   }
 }
