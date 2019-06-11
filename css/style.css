@@ -33,8 +33,8 @@ h2{
   background-size: cover;
   background-color: grey;
   padding: 1%;
-  width: 100%;
-  height: 100%;
+  width: 350px;
+  height: 200px;
 }
 
 .baku{
@@ -72,8 +72,8 @@ h2{
   .preview{
     float: center;
     background-size: contain;
-    width: 100%;
-    height: 100%;
+    width: 350px;
+    height: 200px;
   }
 
   h2{
