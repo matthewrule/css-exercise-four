@@ -27,9 +27,6 @@ h2{
 
 .container{
   position: center;
-  display: flex;
-  flex-direction: center;
-  flex-wrap: center;
   justify-content: center;
   background-size: cover;
   width: 100%;
@@ -40,9 +37,10 @@ h2{
   float: left;
   background-size: cover;
   background-color: grey;
+  margin: 10px;
   padding-left: 2%;
   padding-top: 2%;
-  width: 100%;
+  width: 320px;
   height: 175px;
 }
 .baku{
@@ -82,9 +80,10 @@ h2{
     background-position: center;
     background-size: cover;
     background-color: grey;
+    margin: 10px;
     padding-top: 1%;
     padding-left: 1%;
-    width: 100%;
+    width: 320px;
     height: 175px;
   }
 
@@ -105,6 +104,7 @@ h2{
     background-position: center;
     background-size: cover;
     background-color: grey;
+    margin: 10px;
     padding: 1%;
     width: 320px;
     height: 175px;
